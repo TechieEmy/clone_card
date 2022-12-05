@@ -4,10 +4,13 @@ const click = document
 
 function buttonClick(e) {
 let text = document.getElementById('click');
-if(text.textContent = 'follow'){
-                    return text.textContent = 'following'
+if(text.textContent = 'Follow'){
+                    return text.textContent = 'Following'
 }
-                    return text.textContent = 'follow'
+else{
+                    return text.textContent = 'Follow'
+}
+                    
 }
 
  
